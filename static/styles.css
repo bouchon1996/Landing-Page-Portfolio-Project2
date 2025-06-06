@@ -9,9 +9,6 @@ body {
 }
 
 .hero, .header {
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
     color: #F9FAF8;
@@ -19,8 +16,16 @@ body {
     font-weight: 900;
 }
 
+.header {
+ display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .hero {
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
 }
 
 .logo {
@@ -37,16 +42,24 @@ body {
 
 .links, .secondary {
     font-size: 18px;
-    color: #e5e7eb
+    color: #e5e7eb;
+    font-weight: 200;
+}
+
+.secondary {
+    text-align:center;
 }
 
 .left {
     flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 30px;
 }
 
 img {
     height: 300px;px;
     width: auto;
+    margin-right: 30px;
 }
 
 .main {
