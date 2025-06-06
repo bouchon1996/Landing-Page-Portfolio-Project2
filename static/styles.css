@@ -1,5 +1,4 @@
-body *{
-
+body * {
 }
 
 .header {
@@ -8,6 +7,13 @@ body *{
     justify-content: space-between;
     background-color: #1f2937;
     color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
 }
 
 .header-links {
@@ -15,4 +21,6 @@ body *{
     list-style-type: none;
     gap: 10px;
     align-items: center;
+    font-size: 18px;
+    color: #e5e7eb
 }
